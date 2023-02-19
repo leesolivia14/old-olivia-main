@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    justify-content: center;
+    margin-bottom: 40px;
+    /* display: inline-block; */
+    text-align: center;
+    text-shadow: 1px 1px 0 yellow,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+.title h1{
+    margin: 20px;
+}
+
+body {
+    
+    background-repeat: repeat;
+}
+
+
+.leftstick{
+    padding-right: 50px;
+}
+.rightstick{
+    padding-left: 50px;
+}
+
+.card{
+    border-radius: 16px;
+    display: grid;
+    justify-content: center;
+    background-color: lightyellow;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    min-height: 24em;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-template-columns: 200px 200px 200px;
+    opacity: 0.9;
+}
+
+
+.carditem {
+    margin-top: 10px;
+    border-radius: 32px;
+    width: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+input{    
+    background-color:aliceblue ;
+    height:30px;  
+    text-align: center;
+    padding: 5px;
+    margin: 13px;
+    margin-bottom: 5px;
+    border-radius: 13px;
+}
+
+
+.button {
+    margin: 0 auto;
+    border-radius: 13px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    border-width: 1px;
+    border:solid;
+    padding:5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: solid;
+    cursor: pointer;
+    margin: 13px;
+    background-color:aliceblue ;
+    height:30px;  
+    text-align: center;
+    padding: 5px;
+    margin: 13px;
+    margin-bottom: 5px;
+    border-radius: 13px;
+}
+
+
+img:hover {
+    background-color: linear-gradient(45deg, yellow, rgb(223, 223, 116));
+    opacity: 40%;
+}
+
+
+
+
+.line-break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.title h1{
+    font-size: 90px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.submit-section {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+
+
+#locationform, #budgetform, #SATreadform, #SATmathform, #ACTform, #sizeform, #gpaform, .button{
+    display:none;
+}
+
+
+
+
+
+
+
+/** CSS for collage **/
+.college-name {
+    font-weight: bold;
+}
+
+.collagecontainer {
+    width: 60%;
+    margin: 2rem auto;
+    border-radius: 16px;
+    justify-content: center;
+    background-color: #bca0dc;
+
+}
+
+.collage {
+    display: grid;
+    
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    text-align: center;
+    grid-gap: 40px;
+}
+
+
+.collageimg {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+
+.college-info {
+    font-size: 16px;
+}
+
+
+
+.collageitem {
+    background-color: lightyellow;
+}
+#collageitem--1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+}
+
+#collageitem--1 .college-info{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 10px;
+}
+
+#collageitem--2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 1.5em;
+}
+
+#collageitem--2 .college-info{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 16px;
+}
+
+#collageitem--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    justify-content: center;
+    font-size: 3.5em;
+    
+}
+
+#collageitem--3 .college-info{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 32px;
+}
+
+
+
+#collageitem--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    font-size: 2em;
+}
+
+#collageitem--4 .college-info{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 18px;
+}
+
+
+
+#collageitem--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    font-size: 2.5em;
+}
+
+#collageitem--5 .college-info{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 22px;
+}
+
+
+/**
+#collageitem--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+**/

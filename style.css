@@ -1,0 +1,84 @@
+/** *{
+    margin: 0;
+    padding: 0;
+}
+**/
+
+
+.page{
+    margin: 0;
+    padding: 0;
+    min-height: 1000px;
+    /**background-image: linear-gradient(#52307c, #7c5295);**/
+    background: linear-gradient( #52307c, #bca0dc);
+}
+
+.card{
+    border-radius: 16px;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    background-color: #bca0dc;
+    min-height: 35em;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+
+.carditem {
+    margin: 10px;
+    border-radius: 32px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+img:hover {
+    background-color: linear-gradient(45deg, yellow, rgb(223, 223, 116));
+    opacity: 40%;
+}
+
+
+
+
+.line-break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.title h1{
+    font-size: 90px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.submit-section {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+
+
+#locationform, #budgetform, #SATform, #ACTform, #sizeform, #gpaform{
+    display:none;
+}

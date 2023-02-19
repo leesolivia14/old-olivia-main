@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../hacknyu-gitversion/HackNYU-workspace/__pycache__"
+		},
+		{
+			"path": "../hacknyu-gitversion/HackNYU-workspace/static"
+		},
+		{
+			"path": "../hacknyu-gitversion/HackNYU-workspace/templates"
+		},
+		{
+			"path": "../hacknyu-gitversion/HackNYU-workspace/venv"
+		}
+	],
+	"settings": {}
+}

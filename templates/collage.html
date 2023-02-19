@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <div class="page">
+    <head>
+        <title> College Collage </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link rel="stylesheet" href="./static/styles/style.css">
+
+    </head>
+
+    <script src="./static/js/script.js"></script>
+
+    <body>
+        <div class="title">
+            <h1><img src="./static/img/logo.png" alt="College Collage" id ="logo" class="leftstick">College Collage<img src="./static/img/logo.png" alt="College Collage" id ="logo" class="rightstick"></h1>
+
+        </div>
+        
+        
+            <div class="collage" id="collage">
+                
+                    <figure class="collageitem" id="collageitem--1">
+                        <!--<img src="./static/img/nyu.jpg" class="collageimg" alt="">-->
+                        {% if fifth_name %}
+                        <p class="college-name">{{fifth_name}}</p>
+                        <div class="college-info">
+                            <p>State: {{fifth_state}}</p>
+                            <p>Application fee: ${{fifth_appfee}}</p>
+                            <p>Room and board: ${{fifth_roomboard}}</p>
+                            {% endif %}
+                        </div>
+                    </figure>
+             
+
+                <figure class="collageitem" id="collageitem--2" >
+                    <!--<img src="./static/img/nyu.jpg" class="collageimg" alt="">-->
+                    {% if fourth_name %}
+                    <p class="college-name">{{fourth_name}}</p>
+                    <div class="college-info">
+                        <p>State: {{fourth_state}}</p>
+                        <p>Application fee: ${{fourth_appfee}}</p>
+                        <p>Room and board: ${{fourth_roomboard}}</p>
+                        {% endif %}
+                    </div>
+                </figure>
+
+                <figure class="collageitem" id="collageitem--3" >
+                    <!--<img src="./static/img/nyu.jpg" class="collageimg" alt="">-->
+                    {% if first_name %}
+                    <p class="college-name">{{first_name}}</p>
+
+                    <div class="college-info">
+                        <p>State: {{first_state}}</p>
+                        <p>Application fee: ${{first_appfee}}</p>
+                        <p>Room and board: ${{first_roomboard}}</p>
+                        {% endif %}
+                    </div>
+                </figure>
+
+                <figure class="collageitem" id="collageitem--4" >
+                    {% if third_name%}
+                    <p class="college-name">{{third_name}}</p>
+
+                    <div class="college-info">
+                        <p>State: {{third_state}}</p>
+                        <p>Application fee: ${{third_appfee}}</p>
+                        <p>Room and board: ${{third_roomboard}}</p>
+                        {% endif %}
+                    </div>
+                    <!--<img src="./static/img/nyu.jpg" class="collageimg" alt="">-->
+                </figure>
+
+                <figure class="collageitem" id="collageitem--5" >
+                    <!--<img src="./static/img/nyu.jpg" class="collageimg" alt="">-->
+                    {% if second_name %}
+                    <p class="college-name">{{second_name}}</p>
+
+                    <div class="college-info">
+                        <p>State: {{second_state}}</p>
+                        <p>Application fee: ${{second_appfee}}</p>
+                        <p>Room and board: ${{second_roomboard}}</p>
+                        {% endif %}
+                    </div>
+                </figure>
+
+                <!--
+                <figure class="collageitem" id="collageitem--6">
+                    <img src="./static/img/nyu.jpg" class="collageimg" alt="">
+                </figure>
+            -->
+
+            </div>
+        
+
+    </body>
+    </div> 
+</html>
